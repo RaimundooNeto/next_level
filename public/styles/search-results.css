@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap');
 
+body {
+    background-color: white;
+}
 
 body::after {
     content: "";
-    position: fixed;
-    background: white;
-    top: 260px;
+    position: absolute;
+    background: #f0f0f5;
+    top: 0px;
     right: 0;
     left: 0;
     bottom: 0;
+    height: 16rem;
     z-index: -1;
 }
 
